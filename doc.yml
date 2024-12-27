@@ -1,0 +1,2 @@
+              - name: render-md-mermaid
+                uses: nielsvaneck/render-md-mermaid@v3
