@@ -90,51 +90,23 @@ Below is a GitHub-friendly textual representation of the workflow:
    - VPN proxies are detected and mitigated.
    - Sharing pre-recorded audio is ineffective as live audio differences are detectable.
    - The system ensures privacy without using ML/DL models or biometric data.
+  
+
+---
+
+## Mitigating
+
+1. VPN proxy will mitigated.
+2. sharing the recorded audio will be mitigated as the application can find the difference in live audio and recorded audio.
+3. It is much more efficient than OTP-based attendance.
+4. NOT using ML/DL models just student biometric information privacy.
+
 
 ---
 
 ## Future Enhancements
 
-- Support for multiple languages and accents.
 - Noise-cancellation for improved accuracy.
-- Mobile application for remote attendance.
 - Analytics dashboard for attendance trends.
 
 ---
-
-## Contributing
-
-Contributions are welcome! Follow these steps to contribute:
-1. Fork the repository.
-2. Create a new branch:
-   ```bash
-   git checkout -b feature-name
-   ```
-3. Commit changes and push:
-   ```bash
-   git commit -m "Add feature name"
-   git push origin feature-name
-   ```
-4. Submit a pull request.
-
----
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-## Contact
-
-**Mani Surya Teja**  
-Email: [msurya@example.com](mailto:msurya@example.com)  
-GitHub: [https://github.com/manisurya](https://github.com/manisurya)
-
----
-
-## Acknowledgements
-
-- Python community for amazing libraries.
-- [Supabase](https://supabase.com/) for seamless database integration.
-- Open-source contributors for speech recognition tools.
