@@ -1,4 +1,3 @@
-
 # Audio-Based Attendance System
 
 An innovative attendance system that uses voice recognition to mark attendance efficiently and securely. This project leverages audio processing and speech recognition to streamline the attendance process in classrooms, workplaces, or events.
@@ -28,24 +27,56 @@ An innovative attendance system that uses voice recognition to mark attendance e
 
 ## Workflow Diagram
 
-Below is a simplified workflow of the audio-based attendance process:
+Below is a GitHub-friendly textual representation of the workflow:
 
-```mermaid
-graph TD
-    A[Professor's Laptop - Audio Input] --> B[Audio Recorded in Real-time]
-    B --> C[Audio Submission to Database (Encrypted)]
-    C --> D[Students Retrieve Audio After Submission]
-    D --> E[Audio Comparison on Student Devices]
-    E -- Match Found --> F[Attendance Marked]
-    E -- No Match Found --> G[Attendance Denied]
-    G --> H[Error Handling]
-    F --> I[Dashboard Updated]
+1. **Professor's Laptop**: Audio is recorded in real-time.
+2. **Audio Submission**: The professor submits the audio to a secure database (encrypted).
+3. **Students' Laptops**: Students retrieve the professor's audio after submission.
+4. **Audio Comparison**: Comparison is performed locally on students' laptops between the live room audio and the submitted professor's audio.
+   - **Match Found**: Attendance is marked.
+   - **No Match Found**: Attendance is denied.
+5. **Dashboard Update**: Attendance records are updated for both students and professors.
 
-    subgraph Mitigating Proxy
-        J[VPN Proxy Mitigation]
-        K[Recorded vs Live Audio Detection]
-        L[No ML/DL for Privacy]
-    end
+### Animated Workflow (Steps Visualization)
+
+```ascii
++-------------------+
+| Professor Laptop  |
+| (Audio Recording) |
++-------------------+
+        |
+        v
++-------------------+
+| Submit Audio to   |
+| Database (Encrypt)|
++-------------------+
+        |
+        v
++-------------------+
+| Students Retrieve |
+| Audio for Local   |
+| Comparison        |
++-------------------+
+        |
+        v
++-------------------+
+| Compare Live Room |
+| Audio with        |
+| Submitted Audio   |
++-------------------+
+     /       \
+    v         v
++-------+   +--------+
+| Match |   | No     |
+| Found |   | Match  |
+| Mark  |   | Deny   |
+| Attend|   | Attend |
++-------+   +--------+
+        |
+        v
++-------------------+
+| Dashboard Update |
++-------------------+
 ```
 
 ---
