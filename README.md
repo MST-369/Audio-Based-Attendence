@@ -96,8 +96,8 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Contact
 
 **Mani Surya Teja**  
-Email: [your-email@example.com](mailto:your-email@example.com)  
-GitHub: [https://github.com/yourusername](https://github.com/yourusername)
+Email: [msurya@example.com](mailto:msurya@example.com)  
+GitHub: [https://github.com/manisurya](https://github.com/manisurya)
 
 ---
 
