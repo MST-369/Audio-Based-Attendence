@@ -82,6 +82,7 @@ Below is a GitHub-friendly textual representation of the workflow:
 ---
 
 ## How It Works
+![image](https://github.com/user-attachments/assets/1666db9b-86f0-45c2-9be0-7c50a188d40d)
 
 1. **Professor Audio Submission**: Professors record live audio on their laptops and submit it to the database, where it is stored in encrypted form.
 2. **Student Audio Comparison**: Students retrieve the professor's submitted audio and compare it with live audio recorded on their local devices.
@@ -91,7 +92,8 @@ Below is a GitHub-friendly textual representation of the workflow:
    - Sharing pre-recorded audio is ineffective as live audio differences are detectable.
    - The system ensures privacy without using ML/DL models or biometric data.
   
-
+---
+### Application
 ---
 
 ## Mitigating
