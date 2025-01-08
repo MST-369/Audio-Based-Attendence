@@ -93,7 +93,22 @@ Below is a GitHub-friendly textual representation of the workflow:
    - The system ensures privacy without using ML/DL models or biometric data.
   
 ---
-### Application
+## Application
+
+### Login page
+![image](https://github.com/user-attachments/assets/6fd7ec02-391b-4d10-bf14-5814a1842514)
+1. The login process for student is different here. It checks if the user is logging in from the regular device or not.
+2. if not, then student should go through the forgot/generate process where the request will be sent to admin to approve the login from new device and then only new device will be registered and old device ID will be deleted.
+3. This process ensures that user can do secure login from one device.
+
+### Professor Dashboard
+![image](https://github.com/user-attachments/assets/4f867cce-84df-480c-a20a-46e4eb2bd78d)
+
+
+### Student Dashboard
+![image](https://github.com/user-attachments/assets/0640abcd-3a57-423d-bb15-29287762d413)
+
+
 ---
 
 ## Mitigating
