@@ -101,12 +101,14 @@ Below is a GitHub-friendly textual representation of the workflow:
 2. if not, then student should go through the forgot/generate process where the request will be sent to admin to approve the login from new device and then only new device will be registered and old device ID will be deleted.
 3. This process ensures that user can do secure login from one device.
 
+
 ### Professor Dashboard
-![image](https://github.com/user-attachments/assets/4f867cce-84df-480c-a20a-46e4eb2bd78d)
+![image](https://github.com/user-attachments/assets/9c44e3a8-5872-4df3-affd-d9328cb463a9)
 
 
 ### Student Dashboard
-![image](https://github.com/user-attachments/assets/0640abcd-3a57-423d-bb15-29287762d413)
+![image](https://github.com/user-attachments/assets/f8474bec-c6ad-43eb-86f3-287153f15d18)
+
 
 
 ---
